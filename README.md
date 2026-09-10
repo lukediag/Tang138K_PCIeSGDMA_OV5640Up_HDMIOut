@@ -1,4 +1,4 @@
-# SGDMA_OV5640_2v0 — OV5640 摄像头 PCIe 实时视频采集
+# Tang138K_PCIeSGDMA_OV5640Up_HDMIOut
 
 > 基于 Sipeed **Tang Mega 138K Pro**（高云 GW5AT-138K FPGA）与 **Orange Pi AI Pro**（昇腾 Atlas 200I A2，ARM64）的 OV5640 摄像头实时采集项目。
 >
