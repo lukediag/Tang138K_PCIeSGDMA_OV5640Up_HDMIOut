@@ -1,0 +1,51 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-138B" pn="GW5AT-LV138PG484AC1/I0">gw5at138b-012</Device>
+    <FileList>
+        <File path="src/Pcie_Sgdma/Pcie_Sgdma.v" type="file.verilog" enable="1"/>
+        <File path="src/asyn_rst_syn.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/arbiter.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axi_dma.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axi_dma_rd.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axi_dma_wr.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axi_interconnect.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axis_async_fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axis_burst_gate.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axis_width_down.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/axis_width_up.v" type="file.verilog" enable="1"/>
+        <File path="src/axi/priority_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/cmos_capture_data.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_test.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx/dvi_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_loop.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/fifo_top.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_header_inserter.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll_hdmi/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll_hdmi/gowin_pll_mod.v" type="file.verilog" enable="1"/>
+        <File path="src/heartbeat.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_ov5640_rgb565_cfg.v" type="file.verilog" enable="1"/>
+        <File path="src/logic_adder.v" type="file.verilog" enable="1"/>
+        <File path="src/logic_dma.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5640_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/pll_init.v" type="file.verilog" enable="1"/>
+        <File path="src/serdes/pcie_controller/pcie_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/serdes/serdes.v" type="file.verilog" enable="1"/>
+        <File path="src/serdes/upar_arbiter/upar_arbiter.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/video_axis_packer.v" type="file.verilog" enable="1"/>
+        <File path="src/video_display.v" type="file.verilog" enable="1"/>
+        <File path="src/video_driver.v" type="file.verilog" enable="1"/>
+        <File path="src/video_frame_writer.v" type="file.verilog" enable="1"/>
+        <File path="src/SGDMADDR2v0.cst" type="file.cst" enable="1"/>
+        <File path="src/SGDMADDR2v0.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

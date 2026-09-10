@@ -1,0 +1,34 @@
+# ===================== Gowin 编译产物 =====================
+impl/
+*.gprj.user
+*.log
+
+# ===================== 内核驱动编译产物 =====================
+host/driver/*.ko
+host/driver/*.o
+host/driver/*.mod
+host/driver/*.mod.c
+host/driver/Module.symvers
+host/driver/modules.order
+host/driver/.*.cmd
+
+# ===================== 编译中间产物 (.o) =====================
+*.o
+
+# ===================== 备份 =====================
+backup/
+host/backup/
+
+# ===================== 日志 / 运行产物 =====================
+host/logs/
+host/frames/
+host/video.mp4
+
+# ===================== Gowin IP 临时文件 =====================
+src/*/temp/
+src/*/*/temp/
+
+# ===================== 通用 =====================
+*~
+.DS_Store
+Thumbs.db
